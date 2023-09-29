@@ -1,0 +1,151 @@
+<html>
+<head>
+  <title>Real Time Image Identification App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+  <center>  <h1>Case Study between Google Lens and Mobile Net</h1>
+  </center>
+
+  <br><br><br><br>
+
+  <ol>
+    <div class="text_image_and_result col-xs-12">
+      <li class="col-sm-4 col-xs-12">
+          <b>Test Image - </b>
+          <img src="bottle.jpeg" class="img-responsive">
+      </li>
+
+      <h5 class="col-sm-4 col-xs-12 e">
+        Output on Google Lens: Mineral Water
+        <span></span>
+      </h5>
+
+      <h5 class="col-sm-4 col-xs-12 e">
+        Output on Mobile Net: Water Bottle
+        <span></span>
+      </h5>
+
+      <div class="mini_result col-xs-12 ">
+        <h4>Result - Draw</h4>
+        <hr>
+        <h4>Google lens is slightly more accurate, but its a draw.</h4>
+        <hr>
+      </div>
+    </div>
+
+
+    <div class="text_image_and_result col-xs-12">
+      <li class="col-sm-4 col-xs-12">
+          <b>Test Image - </b>
+          <img src="computer.jpeg" class="img-responsive">
+      </li>
+
+      <h5 class="col-sm-4 col-xs-12 e">
+        Output on Google Lens: Desktop Computer
+        <span></span>
+      </h5>
+
+      <h5 class="col-sm-4 col-xs-12 e">
+        Output on Mobile Net: Computer Desktop
+        <span></span>
+      </h5>
+
+      <div class="mini_result col-xs-12 ">
+        <h4>Result - Draw</h4>
+        <hr>
+        <h4>They both send the same response!</h4>
+        <hr>
+      </div>
+    </div>
+
+    <div class="text_image_and_result col-xs-12">
+      <li class="col-sm-4 col-xs-12">
+          <b>Test Image - </b>
+          <img src="mouse.jpeg" class="img-responsive">
+      </li>
+
+      <h5 class="col-sm-4 col-xs-12 e">
+        Output on Google Lens: Wireless Mouse
+        <span></span>
+      </h5>
+
+      <h5 class="col-sm-4 col-xs-12 e">
+        Output on Mobile Net: Computer Mouse
+        <span></span>
+      </h5>
+
+      <div class="mini_result col-xs-12 ">
+        <h4>Result - Draw</h4>
+        <hr>
+        <h4>Mobile net is specifying it more slightly, but draw</h4>
+        <hr>
+      </div>
+    </div>
+
+    <div class="text_image_and_result col-xs-12">
+      <li class="col-sm-4 col-xs-12">
+          <b>Test Image - </b>
+          <img src="cactus.jpeg" class="img-responsive">
+      </li>
+
+      <h5 class="col-sm-4 col-xs-12 e">
+        Output on Google Lens: Cactus(Echinopisis oxygona)
+        <span></span>
+      </h5>
+
+      <h5 class="col-sm-4 col-xs-12 e">
+        Output on Mobile Net: Shower Curtain
+        <span></span>
+      </h5>
+
+      <div class="mini_result col-xs-12 ">
+        <h4>Result - Google Lens wins 1-0</h4>
+        <hr>
+        <h4>It's kind of obvious who wins this one.</h4>
+        <hr>
+      </div>
+    </div>
+
+    <div class="text_image_and_result col-xs-12">
+      <li class="col-sm-4 col-xs-12">
+          <b>Test Image - </b>
+          <img src="bee.jpeg" class="img-responsive">
+      </li>
+
+      <h5 class="col-sm-4 col-xs-12 e">
+        Output on Google Lens: Honey Bee
+        <span></span>
+      </h5>
+
+      <h5 class="col-sm-4 col-xs-12 e">
+        Output on Mobile Net: Cornet
+        <span></span>
+      </h5>
+
+      <div class="mini_result col-xs-12 ">
+        <h4>Result - Google Lens wins 2-0</h4>
+        <hr>
+        <h4>It's kind of obvious who wins this one too.</h4>
+        <hr>
+      </div>
+    </div>
+  </ol>
+
+  <center>  <div class="yes"> 
+    In Conclusion, We can see Mobile Net is failing more on Nature items/beings, and it also takes time to get the output. While Google Lens has performed extremely well. I would prefer Google Lens 100% over Mobile Net
+  </div></center>
+</body>
+
+</html>
+
+

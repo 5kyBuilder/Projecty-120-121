@@ -1,0 +1,16 @@
+body{
+  background-color: powderblue;
+}
+
+.e{
+  margin-left: 10px;
+  background-color: grey;
+  font-size: 20px;
+  color: white;
+}
+
+.yes{
+  font-size: 25px;
+  background-color: red;
+  display: inline;
+}
